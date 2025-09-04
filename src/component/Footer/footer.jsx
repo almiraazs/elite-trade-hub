@@ -14,7 +14,7 @@ const Footer = () => {
             ELITE <span className="text-yellow-500">TRADE HUB</span>
           </h2>
           <p className="text-gray-400 text-sm mt-3">
-            Level up your trading experience with us!
+            It’s time for your account to shine without the tryhard!
           </p>
         </div>
 
