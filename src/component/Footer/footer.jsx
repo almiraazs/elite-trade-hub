@@ -34,7 +34,7 @@ const Footer = () => {
             </a>
           </div>
           <p className="text-gray-300 text-lg font-medium">
-            elite.tradehub@gmail.com
+            @elitetrade_hub
           </p>
         </div>
       </div>
