@@ -1,3 +1,37 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+:root {
+  --background-color: #f9f9f9;
+  --text-color: #333;
+  --primary-color: blue;
+}
+
+[data-theme="dark"] {
+  --background-color: #121212;
+  --text-color: #eee;
+  --primary-color: lightblue;
+}
+
+body {
+  background-color: var(--background-color);
+  color: var(--text-color);
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.hover\:border-b-2 {
+  /* Gaya hover default */
+}
+
+[data-theme="dark"] .hover\:border-b-2:hover {
+  border-bottom-color: var(--primary-color);
+}
+
+.text-orange-600 {
+  color: rgb(255, 106, 0); /* Warna default */
+}
+
+[data-theme="dark"] .text-orange-600 {
+  color: #ff8c00; /* Warna oranye yang berbeda untuk mode gelap */
+}
