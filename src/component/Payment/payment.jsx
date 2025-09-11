@@ -25,6 +25,7 @@ import Wells from "../../assets/Wells.jpg";
 // Import logo tambahan
 import Mercado from "../../assets/Mercado.png";
 import Muscat from "../../assets/muscat.png";
+import MUFG from "../../assets/MUFG.png";
 import Nbk from "../../assets/nbk.png";
 import Nhbank from "../../assets/nhbank.jpg";
 import Pay from "../../assets/pay.png";
@@ -69,6 +70,7 @@ const logos = [
   Wells,
   Mercado,
   Muscat,
+  MUFG,
   Nbk,
   Nhbank,
   Pay,
